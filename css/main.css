@@ -95,6 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 html {
     box-sizing: border-box;
 }
@@ -110,6 +111,7 @@ html {
 body {
     margin-left: 15.625em;
     padding: 3.750em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .side-bar {
@@ -126,7 +128,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin: -10px;
+    width: 70%;
 }
 
 img {
@@ -134,18 +136,58 @@ img {
 }
 
 #logo {
-    padding: 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+.side-bar ul {
+    padding: 0;
 }
 
 .side-bar li {
     list-style-type: none;
     text-transform: uppercase;
+    font-size: .9em;
+    padding: 10px 0px;
 }
 
 h1, h2, h3, h4, h5, h5 {
     text-transform: uppercase;
 }
 
+/*.social a {
+    display: inline-block;
+    width: 40px;
+}
+
+.facebook a:active {
+    background-image: url('../img/facebook.png');
+}*/
+
+.social ul{
+    overflow: auto;
+}
+
+.social li {
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+}
+
+ul li a:link i {
+    background: #a3a2a2;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 9px;
+    text-align: center;
+    margin-right: 8px;
+    padding-top: 15%;
+}
+
+ul li a:hover i {
+    background: #000;
+}
 
 
 
