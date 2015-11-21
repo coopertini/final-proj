@@ -95,6 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*  GLOBALS  */
 
 html {
     box-sizing: border-box;
@@ -113,6 +114,12 @@ body {
     padding: 3.750em;
     font-family: 'Montserrat', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h5 {
+    text-transform: uppercase;
+}
+
+/*  SIDEBAR NAVIGATION  */
 
 .side-bar {
     position: fixed;
@@ -150,18 +157,7 @@ img {
     padding: 10px 0px;
 }
 
-h1, h2, h3, h4, h5, h5 {
-    text-transform: uppercase;
-}
-
-/*.social a {
-    display: inline-block;
-    width: 40px;
-}
-
-.facebook a:active {
-    background-image: url('../img/facebook.png');
-}*/
+/*  SOCIAL ICON NAV  */
 
 .social ul{
     overflow: auto;
@@ -188,6 +184,58 @@ ul li a:link i {
 ul li a:hover i {
     background: #000;
 }
+
+.block {
+    background-color: #fcd500;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .02em;
+}
+
+.lg {
+    padding: 100px 160px;
+    font-size: 3em;
+}
+
+/*  FEATURED WORK  */
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-left, .feature-center {
+    margin: 30px 30px 30px 0px;
+}
+
+.feature-right {
+    margin: 30px 0px 30px 0px;
+}
+
+.feature-overlay h3 {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-size: .8em;
+    padding: 3px 9px;
+}
+
+.feature-work {
+    position: relative;
+}
+
+.feature-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
