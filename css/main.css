@@ -95,6 +95,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { 
+    box-sizing: inherit; 
+}
+
+* {
+    border: 1px solid red;
+}
+
+body {
+    margin-left: 15.625em;
+    padding: 3.750em;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15.625em;
+    height: 100%;
+    padding: 0;
+}
+
+.nav-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: -10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+    padding: 0px;
+}
+
+.side-bar li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    text-transform: uppercase;
+}
+
 
 
 
