@@ -106,7 +106,7 @@ html {
 }
 
 * {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
@@ -186,6 +186,7 @@ ul li a:hover i {
 }
 
 .block {
+    display: block;
     background-color: #fcd500;
     color: #fff;
     text-align: center;
@@ -214,6 +215,10 @@ ul li a:hover i {
 }
 
 .feature-overlay h3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     display: inline-block;
     background-color: #000;
     color: #fff;
@@ -230,10 +235,30 @@ ul li a:hover i {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     width: 100%;
     height: 100%;
 }
+
+.feature-overlay h2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+}
+
+.med.block {
+    float: left;
+    width: 50%;
+    font-size: 1.8em;
+}
+
+.page-footer {
+    clear: both;
+}
+
 
 
 
