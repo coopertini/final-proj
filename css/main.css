@@ -119,6 +119,12 @@ h1, h2, h3, h4, h5, h5 {
     text-transform: uppercase;
 }
 
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+
 /*  SIDEBAR NAVIGATION  */
 
 .side-bar {
@@ -143,11 +149,12 @@ img {
 }
 
 #logo {
-    padding: 0px 0px 20px 0px;
+    width: 150px;
+    padding: 0px 0px 30px 0px;
 }
 
 .side-bar ul {
-    padding: 0;
+    padding: 0px 0px 20px 0px;
 }
 
 .side-bar li {
@@ -175,10 +182,10 @@ ul li a:link i {
     width: 20px;
     height: 20px;
     border-radius: 10px;
-    font-size: 9px;
+    font-size: 13px;
     text-align: center;
     margin-right: 8px;
-    padding-top: 15%;
+    padding-top: 13%;
 }
 
 ul li a:hover i {
@@ -252,14 +259,14 @@ ul li a:hover i {
 #about-us {
     position: relative;
     float: left;
-    width: 48%;
+    width: 48.5%;
     font-size: 1.8em;
 }
 
 #contact-us {
     position: relative;
     float: right;
-    width: 48%;
+    width: 48.5%;
     font-size: 1.8em;
 }
 
