@@ -281,16 +281,16 @@ ul li a:hover i {
 
 /*  OUR WORK  */
 
+.three-column {
+    width: 33.33%;
+    float: left;
+}
+
 .work-block {
     position: relative;
-    width: 30%;
     float: left;
     margin: 15px;
     -webkit-transition: background 1s;
-}
-
-.work-block:nth-child(3n+1){
-    clear:both;
 }
 
 .work-block h4 {
@@ -357,33 +357,19 @@ ul li a:hover i {
     border-bottom: 7px solid #fff;
 }
 
-/* OUR WORK - POJECT PREVIEWS */
-/*.work-preview {
-    float: left;
-    width: 30%;
-    margin: 1em;
-    position: relative;
-    display: block;
-}
-
-.work-preview img {
-    display: block;
-}
-
-.work-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}*/
-
 /* FOOTER */
 
 .page-footer {
     clear: both;
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 90px;
     font-size: .9em;
+}
+
+#work-footer p {
+    color: #77787A;
+    border-top: .7px solid #77787A;
 }
 
 
